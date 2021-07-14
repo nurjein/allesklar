@@ -1,0 +1,1021 @@
+* {
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: PWSmokey;
+    src: url(../font/PWSmokey.ttf) format("truetype");
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+#wrap {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 30px;
+    display: flex;
+    z-index: 1000;
+    justify-content: space-between;
+
+}
+
+header ul {
+    margin-left: 30px;
+}
+
+header ul li {
+    padding: 0 0 10px 30px;
+}
+
+header ul li.active a {
+    background-color: white;
+    color: black;
+}
+
+header ul li a {
+    padding: 5px;
+    color: white;
+    font-family: PWSmokey;
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+
+/* header ul li a:hover {
+    color: #030303;
+    background-color: #fff;
+} */
+
+header .head {
+    text-align: center;
+
+}
+
+header .head img:first-child {
+    margin-bottom: 10px;
+}
+
+header .hamburger {
+    display: none;
+}
+
+header .buttons {
+    width: 164px;
+    height: 50px;
+    position: relative;
+    margin-right: 30px;
+}
+
+header .buttons button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    line-height: 50px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: #030303;
+    font-weight: bold;
+
+}
+
+header .buttons button.korean {
+    z-index: 10;
+}
+
+
+aside.scrollbar .bar {
+    width: 1px;
+    background-color: white;
+    height: calc(100% - 60px);
+    position: fixed;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+aside.scrollbar .bar .scroll {
+    width: 5px;
+    height: 20%;
+    background-color: #fff;
+    position: absolute;
+    left: -2px;
+    top: 0;
+    transition: linear 0.2s;
+    z-index: 100;
+}
+
+aside.top {
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    width: 150px;
+    z-index: 4000;
+}
+
+aside.top img {
+    width: 100%;
+
+}
+
+
+/* -------------------------------------- */
+section {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* ---------sec1--------- */
+section.sec1 {
+    background-color: #030303;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section.sec1 .album {
+    display: flex;
+    margin-top: 100px;
+}
+
+section.sec1 .album>div {
+    margin: 0 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+section.sec1 .album>div h3 {
+
+    padding-top: 10px;
+}
+
+section.sec1 .album>div img {
+    border: 5px solid white;
+    width: 450px;
+}
+
+section.sec1 .goshop {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    bottom: 41px;
+    left: 0;
+    transition: .5s;
+    opacity: 0;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.6), transparent);
+
+}
+
+section.sec1 .album>div:hover .goshop {
+    opacity: 0.9;
+}
+
+section.sec1 .goshop .eng_buy {
+    display: none;
+    /* bottom: 40px; */
+}
+
+section.sec1 .goshop a {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+
+}
+
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 19px 19px;
+    transition: all .2s ease;
+}
+
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 8px;
+    display: block;
+    border-radius: 28px;
+    background: #030303;
+    width: 56px;
+    height: 56px;
+    transition: all .3s ease;
+}
+
+.cta span {
+    position: relative;
+    font-size: 1.2rem;
+    line-height: 18px;
+    font-family: PWSmokey;
+    font-weight: bold;
+    /* letter-spacing: .25em; */
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.cta svg {
+    position: relative;
+    top: 2px;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #030303;
+    stroke-width: 2.5;
+    transform: translate(-3px, -2px);
+    transition: all .3s ease;
+}
+
+.cta:hover:before {
+    width: 88%;
+    background: #030303;
+}
+
+.cta:hover svg {
+    transform: translate(3px, -2px);
+    stroke: #1ECECB;
+}
+
+.cta:active {
+    transform: scale(0.96);
+}
+
+
+/* ---------sec2--------- */
+section.sec2 {
+    background-color: #030303;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+section.sec2 .inner {
+    display: flex;
+    height: 575px;
+    margin-top: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.sec2 .inner .cdframe {
+    width: 550px;
+    height: 550px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+section.sec2 .inner .cdframe img {
+    animation-name: circle;
+    animation-direction: normal;
+    animation-duration: 180s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(720deg);
+    }
+}
+
+
+section.sec2 .inner .cdframe img {
+    width: 100%;
+}
+
+
+
+.bubble {
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    width: 180px;
+    animation: bubble 2s infinite alternate-reverse;
+
+}
+
+@keyframes bubble {
+    0% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.bubble img {
+    width: 100%;
+}
+
+section.sec2 ul li:hover {
+    color: #1ECECB;
+
+    cursor: pointer;
+}
+
+/* mint 색상코드 :#1ECECB */
+section.sec2 .tracklist {
+
+    width: 575px;
+    box-sizing: border-box;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+section.sec2 .tracklist h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+section.sec2 .tracklist .list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+section.sec2 .tracklist ul li {
+    font-size: 1.8rem;
+    padding: 7px 0;
+}
+
+section.sec2 .tracklist .listframe p {
+    padding-top: 40px;
+    font-size: 0.8rem;
+}
+
+section.sec2 .tracklist .listframe p.p_eng {
+    display: none;
+}
+
+section.sec2 .lyric {
+    width: 700px;
+    height: 600px;
+    border: 5px solid #1ECECB;
+    background-color: rgba(255, 255, 255, 0.9);
+    /* background-image: url(../images/image-from-rawpixel-id-2282571-jpeg.jpg); */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    font-size: 1.1rem;
+    transform: translate(-50%, -40%);
+    padding-bottom: 20px;
+    overflow-Y: scroll;
+    color: #030303;
+    text-align: center;
+    display: none;
+    z-index: 1000;
+
+}
+
+section.sec2 .lyrics .lyric h2 {
+    color: #1ECECB;
+    padding: 20px 0;
+
+}
+
+section.sec2 .lyrics .lyric .time {
+    font-size: 1rem;
+    color: #030303;
+
+    font-weight: bold;
+}
+
+section.sec2 .lyrics .lyric img {
+    position: sticky;
+    float: right;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: block;
+
+}
+
+/* ---------sec3--------- */
+section.sec3 {
+    background: url(../images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+section.sec3 .sec3_frame {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.sec3 .carousel {
+    height: 405px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.sec3 li {
+    width: 720px;
+    height: 405px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+
+}
+
+section.sec3 li iframe {
+    border: 5px solid white;
+}
+
+section.sec3 li h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 0.8rem;
+
+}
+
+section.sec3 .items {
+    position: absolute;
+}
+
+section.sec3 .main-pos {
+
+    z-index: 300;
+
+}
+
+section.sec3 .left-pos {
+    opacity: .3;
+    margin-left: -57em !important;
+    z-index: 100;
+    -webkit-transform: scale(.75);
+    -moz-transform: scale(.75);
+    transform: scale(.75);
+}
+
+.back-pos {
+
+    opacity: .05;
+    -webkit-transform: scale(.5);
+    -moz-transform: scale(.5);
+    transform: scale(.5);
+}
+
+section.sec3 .right-pos {
+    opacity: .3;
+    margin-left: 57em !important;
+    z-index: 100;
+    -webkit-transform: scale(.75);
+    -moz-transform: scale(.75);
+    transform: scale(.75);
+}
+
+section.sec3 span {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 200;
+    left: 50%;
+    /* bottom: -40px; */
+    transform: translateX(-50%);
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+section.sec3 span input {
+    width: 360px;
+    height: 300px;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding-bottom: 3px;
+    transition: .3s;
+
+}
+
+section.sec3 span input:first-child {
+    margin-right: 360px;
+}
+
+section.sec3 span input:last-child {
+    margin-left: 360px;
+}
+
+
+
+/* ---------sec4--------- */
+section.sec4 {
+    background: url(../images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding-top: 150px;
+}
+
+section.sec4 .images img {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    cursor: pointer;
+    border: 5px solid white;
+    z-index: 100;
+}
+
+section.sec4 .photoframe {
+    background-color: white;
+    padding: 5px;
+    width: 720px;
+    height: 600px;
+
+    box-sizing: border-box;
+
+}
+
+section.sec4 .photoframe img {
+    display: block;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+section.sec4 .photoframe .photo_top {
+    margin-bottom: 5px;
+    display: flex;
+    height: 45%;
+    width: 100%;
+}
+
+section.sec4 .photoframe .photo_top>div {
+    margin-right: 5px;
+}
+
+section.sec4 .photoframe>div .last {
+    margin-right: 0px;
+}
+
+section.sec4 .photoframe .photo_top .top1 {
+    width: calc((100% - 10px) / 2);
+    overflow: hidden;
+}
+
+section.sec4 .photoframe .photo_bottom {
+    display: flex;
+    margin-bottom: 5px;
+    height: calc(55% - 5px);
+    width: 100%;
+    overflow: hidden;
+}
+
+section.sec4 .photoframe .photo_bottom .bottom1 {
+    width: 32%;
+    margin-right: 5px;
+}
+
+section.sec4 .photoframe .photo_bottom .bottom2 {
+    width: calc(68% - 5px);
+    overflow: hidden;
+    height: 100%;
+}
+
+
+section.sec4 .photoframe .photo_bottom .bottom1 img {
+    width: 100%;
+}
+
+section.sec4 .black {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+
+}
+
+/* ---------sec5--------- */
+section.sec5 {
+    background: url(../images/bg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section.sec5 img {
+    width: 500px;
+}
+
+/* 반응형 */
+
+@media all and (max-width:1024px) {
+    aside.top {
+        width: 100px;
+    }
+
+    header ul {
+        width: 20%;
+    }
+
+    header ul li {
+        padding: 0 0 5px 30px;
+    }
+
+    header ul li a {
+        font-size: 1rem;
+    }
+
+    header .buttons {
+        width: 20%;
+    }
+
+    header .head {
+        width: 60%;
+    }
+
+    header .head img:first-child {
+        width: 50%;
+    }
+
+    header .head img:last-child {
+        width: 100%;
+    }
+
+    section.sec1 .album {
+        width: 85%;
+    }
+
+    section.sec1 .album>div img {
+        width: 100%;
+    }
+
+    #wrap section.sec2 .inner {
+        height: 50%;
+        margin-top: 150px;
+    }
+
+    #wrap section.sec2 .cdframe {
+        width: 50%;
+        padding: 50px;
+        height: 100%;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+
+    }
+
+    #wrap section.sec2 .cdframe .bubble {
+        width: 25%;
+        bottom: 10%;
+        left: 10%;
+    }
+
+    section.sec2 .tracklist {
+        width: 50%;
+        padding-right: 20px;
+    }
+
+    section.sec2 .tracklist h1 {
+        font-size: 2rem;
+    }
+
+    section.sec2 .tracklist ul li {
+        font-size: 1.2rem;
+    }
+
+    section.sec3 li {
+        width: 504px;
+        height: 283.5px;
+    }
+
+    section.sec3 li iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    section.sec3 li h3 {
+        font-size: 1.2rem;
+    }
+
+    section.sec3 .left-pos {
+        margin-left: -22em !important;
+    }
+
+    section.sec3 .right-pos {
+        margin-left: 22em !important;
+    }
+
+    section.sec3 span input {
+        width: 110px;
+        height: 212.6px;
+        border: none;
+        outline: none;
+        background: none;
+        cursor: pointer;
+        font-size: 1.2rem;
+        padding-bottom: 3px;
+        transition: .3s;
+
+    }
+
+
+    section.sec3 span input:first-child {
+        margin-right: 252px;
+    }
+
+    section.sec3 span input:last-child {
+        margin-left: 252px;
+    }
+
+    section.sec4 {
+        align-items: center;
+    }
+
+    section.sec4 .photoframe {
+        margin-bottom: 0;
+    }
+
+    section.sec5 img {
+        width: 350px;
+    }
+}
+
+@media all and (max-width:720px) {
+    body {
+        overflow-y: scroll !important;
+        height: fit-content;
+    }
+
+    /* sec5 색 : #065397 */
+    #wrap {
+        width: 100%;
+    }
+
+    aside.scrollbar,
+    aside.top,
+    aside.top img {
+        display: none;
+    }
+
+    section {
+        height: fit-content;
+
+    }
+
+    section.sec1,
+    section.sec2,
+    section.sec3,
+    section.sec4 {
+        background-image: none;
+        background-color: #030303;
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        display: block;
+        text-align: center;
+        background: #030303;
+        height: fit-content;
+        top: 0px;
+        padding: 10px 0;
+        position: fixed;
+        box-shadow: 0 7px 10px 10px #030303;
+    }
+
+    header .head {
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+    header ul {
+        width: 95%;
+        display: flex;
+        margin: 0;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    header ul li {
+        text-align: center;
+        padding: 0;
+
+
+    }
+
+    header ul li:nth-child(1),
+    header ul li:nth-child(3),
+    header ul li:nth-child(4),
+    header ul li:nth-child(5) {
+        width: 17.5%;
+    }
+
+    header ul li:nth-child(2) {
+        width: 30%;
+    }
+
+    header ul li a {
+        font-size: 0.9rem;
+        padding: 3px;
+    }
+
+    header .buttons {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+    }
+
+    header .buttons button {
+        width: 100%;
+        height: 100%;
+        font-size: 0.8rem;
+        line-height: 30px;
+        font-weight: bold;
+    }
+
+    aside.top {
+        width: 80px;
+        right: 20px;
+        bottom: 20px;
+    }
+
+
+    section.sec1 .album {
+        display: block;
+        margin-top: 17vh;
+
+    }
+
+    section.sec1 .album>div h3 {
+        padding: 10px 0 30px 0;
+
+    }
+
+    section.sec1 .goshop {
+        bottom: 72px;
+    }
+
+    section.sec2 {
+        padding-top: 50px;
+    }
+
+    section.sec2 .inner {
+        display: block;
+
+
+    }
+
+    #wrap section.sec2 .inner .cdframe {
+        display: block;
+        width: 100%;
+        padding: 10% 20%;
+    }
+
+    section.sec2 .inner .tracklist {
+        width: 100%;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    section.sec2 .tracklist ul li {
+
+        padding: 3px 0;
+    }
+
+    section.sec2 .inner .tracklist .list {
+        display: block;
+    }
+
+    #wrap section.sec2 .cdframe .bubble {
+        display: none;
+    }
+
+    section.sec2 .lyric {
+        width: 80%;
+        height: 50%;
+        font-size: 0.9rem;
+    }
+
+
+    section.sec3 li {
+        width: 400px;
+        height: 225px;
+    }
+
+    section.sec3 .sec3_frame {
+        margin: 50px 0;
+    }
+
+    section.sec3 .left-pos {
+        margin-left: 0 !important;
+        margin-bottom: 15rem;
+    }
+
+    section.sec3 .right-pos {
+        margin-left: 0 !important;
+        margin-bottom: -15rem;
+    }
+
+    section.sec3 li h3 {
+        font-size: 1rem;
+        margin-top: 0.3rem;
+    }
+
+    section.sec3 span {
+        width: 400px;
+        height: 420px;
+        display: block;
+    }
+
+    section.sec3 span input {
+        width: 100%;
+        height: 95px;
+    }
+
+    section.sec3 span input:first-child {
+        margin-bottom: 113px;
+        margin-right: 0;
+    }
+
+    section.sec3 span input:last-child {
+        margin-top: 113px;
+        margin-left: 0;
+    }
+
+    section.sec4 {
+        padding-top: 100px;
+    }
+
+
+
+
+    section.sec5 {
+        padding: 25vh 0 10vh 0;
+        background: linear-gradient(to top, #065397 65%, #030303);
+    }
+
+    section.sec5 img {
+        width: 250px;
+    }
+
+
+}

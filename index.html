@@ -5,655 +5,1599 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>main page</title>
-
+    <title>Atlantis</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/main_style.css">
+    <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">
 
-    <link rel="chortcut icon" href="favicon/favicon.ico" type="image/x-icon">
-    <!-- <link rel="apple-touch-icon" sizes="120x120" href="favicon/android-chrome-96x96.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"> -->
-    <!-- <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff"> -->
 </head>
 
-<body id="wrap">
-    <!-- -------------header----------------- -->
-
-    <header>
-        <div class="greenbox">
-
-            <input type="checkbox" id="close">
-            <label for="close">
-                <img src="icon/close.png" alt="x">
-            </label>
-            <div class="popup">
-                <p class="top">
-                    <a href="#">기간임박 대박할인 바로가기 ☞</a>
-                </p>
-
+<body>
+    <div id="wrap">
+        <header>
+            <div class="hamburger">
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
             </div>
-
-        </div>
-        <div class="inner header_personal">
-            <ul class="personal">
-                <li><a href="#">회원가입</a></li>
-                <li>ㅣ</li>
-                <li><a href="#">로그인</a></li>
-                <li>ㅣ</li>
-                <li><a href="#">고객센터</a></li>
+            <ul>
+                <li class="active"><a href="#">INTRO</a></li>
+                <li><a href="#">TRACK LIST</a></li>
+                <li><a href="#">VIDEO</a></li>
+                <li><a href="#">PHOTO</a></li>
+                <li><a href="#">OUTRO</a></li>
             </ul>
-            <hr>
-            <div class="main_logo">
-                <div>
-                    <a href="#"><img src="logo/main_logo.png" alt="main_logo"></a>
-                </div>
+            <div class="head">
+                <img src="images/shinee_resized.png" alt="shinee"><br>
+                <a href="#"><img src="images/main_logo_resized.png" alt="main_atlantis"></a>
             </div>
-            <hr>
-    </header>
-
-    <!-- ------------------cursed area------------------ -->
-    <div class="menu_bar">
-        <nav class="inner">
-            <div class="category">
-                <div class="hamburger">
-                    <a href="#"><img src="icon/icon_hamburger.png" alt="hamburger"></a>
-                </div>
-                <p><a href="#">카테고리</a></p>
-                <ul class="big_category">
-                    <li>자연치즈
-                        <ul class="sub_category">
-                            <li><a href="#">고다/에담</a></li>
-                            <li><a href="#">그뤼에르</a></li>
-                            <li><a href="#">까망베르</a></li>
-                            <li><a href="#">마스카포네</a></li>
-                            <li><a href="#">모짜렐라</a></li>
-                            <li><a href="#">미몰레트</a></li>
-                            <li><a href="#">부라타</a></li>
-                            <li><a href="#">브리</a></li>
-                            <li><a href="#">블루/고르곤졸라</a></li>
-                            <li><a href="#">염소치즈</a></li>
-                            <li><a href="#">에멘탈</a></li>
-                            <li><a href="#">체다</a></li>
-                            <li><a href="#">파르미지아노 레지아노</a></li>
-                            <li><a href="#">기타</a></li>
-
-                        </ul>
-                    </li>
-                    <li>스낵가공치즈
-                        <ul class="sub_category">
-                            <li><a href="#">과일치즈</a></li>
-                            <li><a href="#">스모크치즈</a></li>
-                            <li><a href="#">슬라이스치즈</a></li>
-                            <li><a href="#">포션치즈</a></li>
-                            <li><a href="#">기타가공치즈</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        크림치즈
-                    </li>
-                    <li>버터/크림/요거트
-                        <ul class="sub_category">
-                            <li><a href="#">버터</a></li>
-                            <li><a href="#">크림</a></li>
-                            <li><a href="#">요거트</a></li>
-                            <li><a href="#">음료</a></li>
-                            <li><a href="#">간식</a></li>
-                            <li><a href="#">코스트코</a></li>
-                        </ul>
-                    </li>
-                    <li>하몽/살라미
-                        <ul class="sub_category">
-                            <li><a href="#">하몽</a></li>
-                            <li><a href="#">살라미</a></li>
-                            <li><a href="#">초리조</a></li>
-                            <li><a href="#">살지촌</a></li>
-                            <li><a href="#">푸아그라</a></li>
-                            <li><a href="#">프로슈토</a></li>
-                            <li><a href="#">기타 가공품</a></li>
-                        </ul>
-                    </li>
-                    <li>오일/비네거/발사믹
-                        <ul class="sub_category">
-                            <li><a href="#">오일</a></li>
-                            <li><a href="#">비네거</a></li>
-                            <li><a href="#">발사믹</a></li>
-                            <li><a href="#">발사믹 소스</a></li>
-                        </ul>
-                    </li>
-                    <li>올리브/절임류
-                        <ul class="sub_category">
-                            <li><a href="#">올리브</a></li>
-                            <li><a href="#">캐비어</a></li>
-                            <li><a href="#">기타 고급 식재료</a></li>
-                            <li><a href="#">올리브 외 절임류</a></li>
-                        </ul>
-                    </li>
-                    <li>소스/향신료
-                        <ul class="sub_category">
-                            <li><a href="#">양념/향신료</a></li>
-                            <li><a href="#">소스류</a></li>
-                            <li><a href="#">머스타드</a></li>
-                            <li><a href="#">트러플</a></li>
-                            <li><a href="#"></a></li>
-                        </ul>
-                    </li>
-                    <li>잼/시럽
-                        <ul class="sub_category">
-                            <li><a href="#">잼</a></li>
-                            <li><a href="#">시럽</a></li>
-                            <li><a href="#">알랭알랭</a></li>
-                        </ul>
-                    </li>
-                    <li>치즈도구
-                        <ul class="sub_category">
-                            <li><a href="#">보드</a></li>
-                            <li><a href="#">나이프</a></li>
-                            <li><a href="#">그레이터</a></li>
-                            <li><a href="#">슬라이서</a></li>
-                            <li><a href="#">퐁듀 도구</a></li>
-                            <li><a href="#">기타</a></li>
-                        </ul>
-                    </li>
-                    <li>피자/파스타 재료
-                        <ul class="sub_category">
-                            <li><a href="#">피자치즈</a></li>
-                            <li><a href="#">파스타 면</a></li>
-                            <li><a href="#">파스타 소스</a></li>
-                            <li><a href="#">샌드위치 재료</a></li>
-                        </ul>
-                    </li>
-                </ul>
+            <div class="buttons">
+                <button class="korean">KO</button>
+                <button class="english">ENG</button>
+            </div>
+        </header>
+        <aside class="scrollbar">
+            <div class="bar">
+                <div class="scroll"></div>
             </div>
 
-            <ul class="menu">
-                <li><a href="#">BEST</a></li>
-                <li><a href="#">신제품</a></li>
-                <li><a href="#">SALE</a></li>
-                <li><a href="#">선물세트</a></li>
-                <li><a href="#">업소용</a></li>
-            </ul>
-
-            <div class="nav_icons">
-                <div class="cart">
-                    <a href="../0505 sub_page_2/0505 sub_page_2.html"><img src="icon/cart.png" alt="cart"></a>
-                </div>
-                <div class="heart">
-                    <a href="#"><img src=" icon/heart2.png" alt="heart" class="heart"></a>
-                </div>
-            </div>
-
-            <div class="search">
-                <div class="search_border">
-                    <input type="text" placeholder="search">
-                    <div class="magnifier">
-                        <a href="#"><img src="icon/magnifier.png" alt="magnifier"></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <hr>
+        </aside>
+        <aside class="top"><a href="#"><img src="images/coral.png" alt="coral"></a></aside>
 
 
-    <div class="main_slide">
 
+        <!-- section -->
+        <div id="section">
+            <section class="sec1">
 
-        <input type="radio" name="dot" id="dot_1" checked>
-        <input type="radio" name="dot" id="dot_2">
-        <input type="radio" name="dot" id="dot_3">
-        <input type="radio" name="dot" id="dot_4">
-        <input type="radio" name="dot" id="dot_5">
-        <!-- 위에서 아래로 읽어내리므로 input이 항상 제일 위에 있어야 한다.  -->
+                <div class="album">
+                    <div class="album1">
+                        <img src="images/albumcover_1.png" alt="albumcover_1">
+                        <div class="goshop">
+                            <a class="button kor_buy cta"
+                                href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=268544913" target="_blank">
+                                <span>BUY</span>
+                                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                                    <path d="M1,5 L11,5"></path>
+                                    <polyline points="8 1 12 5 8 9"></polyline>
+                                </svg>
+                            </a>
+                            <a class="button eng_buy cta"
+                                href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=268544913" target="_blank">
+                                <span>BUY</span>
+                                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                                    <path d="M1,5 L11,5"></path>
+                                    <polyline points="8 1 12 5 8 9"></polyline>
+                                </svg>
+                            </a>
 
-        <div class="slide">
-            <div class="frame"> <a href=""><img src="images/main_slide.png" alt="main_slide"></a></div>
-            <div class="frame"> <a href=""><img src="images/main_slide.png" alt="main_slide"></a></div>
-            <div class="frame"> <a href=""><img src="images/main_slide.png" alt="main_slide"></a></div>
-            <div class="frame"> <a href=""><img src="images/main_slide.png" alt="main_slide"></a></div>
-            <div class="frame"> <a href=""><img src="images/main_slide.png" alt="main_slide"></a></div>
-            <hr>
-        </div>
-
-        <div class="arrows arrows_1">
-            <label for="dot_5" class="left">
-                <span></span>
-            </label>
-            <label for="dot_2" class="right">
-                <span></span>
-            </label>
-        </div>
-
-        <div class="arrows arrows_2">
-            <label for="dot_1" class="left">
-                <span></span>
-
-            </label>
-            <label for="dot_3" class="right">
-                <span></span>
-
-            </label>
-        </div>
-
-        <div class="arrows arrows_3">
-            <label for="dot_2" class="left">
-                <span></span>
-
-            </label>
-            <label for="dot_4" class="right">
-                <span></span>
-
-            </label>
-        </div>
-
-        <div class="arrows arrows_4">
-            <label for="dot_3" class="left">
-                <span></span>
-
-            </label>
-            <label for="dot_5" class="right">
-                <span></span>
-
-            </label>
-        </div>
-
-        <div class="arrows arrows_5">
-            <label for="dot_4" class="left">
-                <span></span>
-
-            </label>
-            <label for="dot_1" class="right">
-                <span></span>
-
-            </label>
-        </div>
-
-
-        <div class="dot_frame">
-            <label for="dot_1"></label>
-            <label for="dot_2"></label>
-            <label for="dot_3"></label>
-            <label for="dot_4"></label>
-            <label for="dot_5"></label>
-        </div>
-
-    </div>
-
-    <!-----------------section------------------ -->
-    <!-----------------article 1 ----------------- -->
-    <main>
-        <section id="sec1">
-            <!-- <article class="art1 inner">
-
-                <a href=""><img src="icon/dot_black.png" alt="dot_black"></a>
-                <a href=""><img src="icon/dot_gray.png" alt="dot_gray"></a>
-                <a href=""><img src="icon/dot_gray.png" alt="dot_gray"></a>
-                <a href=""><img src="icon/dot_gray.png" alt="dot_gray"></a>
-                <a href=""><img src="icon/dot_gray.png" alt="dot_gray"></a>
-            </article> -->
-
-
-            <!-----------------article 2 ------------------ -->
-            <article class="art2 inner">
-                <div class="title">
-
-                    <h1>치즈퀸 강력추천</h1>
-                </div>
-
-                <div class="cont_box">
-                    <div class="cont">
-                        <div class="img_frame">
-                            <a href="../0504 sub_page_1/index.html"><img src="images/1.png" alt="cheese"
-                                    class="images"></a>
                         </div>
 
-                        <div class="text">
-                            <p class="cont_brand">본 마예네</p>
-                            <h3 class="cont_title"><a href="../0504 sub_page_1/index.html">라이트 까망베르 250g</a></h3>
-                            <p class="cont_former_price">12,400원</p>
-                            <div class="disc_price">
-                                <h2 class="cont_current_price">6,300원</h2>
-                                <p class="discount">50%</p>
-                            </div>
-                            <hr>
-                            <p class="star">★★★★☆(15)</p>
-                        </div>
+                        <h3>OCEAN ver.</h3>
                     </div>
 
-                    <div class="cont">
-                        <div class="recommend img_frame">
-                            <a href="#"><img src="images/2.jpg" alt="cheese" class="images"></a>
-                            <img src="icon/recommend.png" alt="맛" class="tasty">
-                        </div>
-                        <div class="text">
-                            <p class="cont_brand">에미</p>
-                            <h3 class="cont_title"><a href="#">제노아 살라미 슬라이스 113g</a></h3>
-                            <p class="cont_former_price"></p>
-                            <h2 class="cont_current_price">9,100원</h2>
-                            <p class="star"></p>
-                        </div>
-                    </div>
+                    <div class="album2">
+                        <img src="images/albumcover_2.png" alt="albumcover_1">
+                        <div class="goshop">
+                            <a class="button kor_buy cta"
+                                href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=268544913" target="_blank">
+                                <span>BUY</span>
+                                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                                    <path d="M1,5 L11,5"></path>
+                                    <polyline points="8 1 12 5 8 9"></polyline>
+                                </svg>
+                            </a>
+                            <a class="button eng_buy cta"
+                                href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=268544913" target="_blank">
+                                <span>BUY</span>
+                                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                                    <path d="M1,5 L11,5"></path>
+                                    <polyline points="8 1 12 5 8 9"></polyline>
+                                </svg>
 
-                    <div class="cont">
-                        <div class="img_frame">
-                            <a href="#"><img src="images/3.jpg" alt="cheese" class="images"></a>
-                        </div>
-                        <div class="text">
-                            <p class="cont_brand">에미</p>
-                            <h3 class="cont_title"><a href="#">퐁듀 400g * 2개</a></h3>
-                            <p class="cont_former_price">34,400원</p>
-                            <div class="disc_price">
-                                <h2 class="cont_current_price">32,680원</h2>
-                                <p class="discount">5%</p>
-                            </div>
-                            <hr>
-                            <p class="star">★★★★★(60)</p>
-                        </div>
-                    </div>
+                            </a>
 
-                    <div class="cont last">
-                        <div class="img_frame">
-                            <a href="#"><img src="images/4.jpg" alt="cheese" class="images"></a>
                         </div>
-                        <div class="text">
-                            <p class="cont_brand">에미</p>
-                            <h3 class="cont_title"><a href="#">테드 드 무안 AOP 420g</a></h3>
-                            <p class="cont_former_price"></p>
-                            <div>
-                                <h2 class="cont_current_price">39,420원</h2>
-                                <p class="no_stock">품절</p>
-                            </div>
-                            <hr>
-                            <p class="star">★★★★☆(15)</p>
-                        </div>
+                        <h3>ADVERTURE ver.</h3>
                     </div>
-
                 </div>
-                <hr>
-            </article>
 
-            <!-----------------article 3 ----------------- -->
-
-            <article class="art3">
+            </section>
+            <section class="sec2">
                 <div class="inner">
-                    <ul class="middle_icons">
-                        <li>
-                            <div>
+                    <div class="cdframe">
+                        <img src="images/cd_front.png" alt="cd">
+                        <div class="bubble">
+                            <img src="images/bubble.png" alt="bubble">
+                        </div>
+                    </div>
 
-                                <a href="#" class="kids"><img src="icon/no-kids.png" alt="kids" class="empty"></a>
-                                <!-- <a href="#"><img src="icon/icon_kids.png" alt="kids" class="full"></a> -->
+                    <div class="tracklist">
+                        <div class="listframe">
+                            <h1>The 7th REPACKAGE</h1>
+                            <div class="list">
+                                <ul class="list_1">
+                                    <li class="track1">1. Atlantis</li>
+                                    <li class="track2">2. CØDE</li>
+                                    <li class="track3">3. Don't call me</li>
+                                    <li class="track4">4. 같은 자리 Area</li>
+                                    <li class="track5">5. Heart Attack</li>
+                                    <li class="track6">6. Marry you</li>
+                                </ul>
+
+                                <ul class="list_2">
+                                    <li class="track7">7. Days and Years</li>
+                                    <li class="track8">8. I Really Want You</li>
+                                    <li class="track9">9. Kiss Kiss</li>
+                                    <li class="track10">10. Attention</li>
+                                    <li class="track11">11. Body Rhythm</li>
+                                    <li class="track12">12. 빈칸 Kind</li>
+
+                                </ul>
                             </div>
-                            <p><a href="#">온가족 어린이 치즈</a></p>
+                            <p class="p_kor"> * 타이틀을 클릭하면 가사를 볼 수 있습니다.</p>
+                            <p class="p_eng">* To see the lyric, click on the title.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lyrics">
+                    <di class="lyric_left">
+                        <div class="lyric lyric1">
+                            <img src="images/close .png" alt="close">
+                            <span>
+                                <h2>1. Atlantis <span class="time">(02:59)</span></h2>
+                            </span>
+
+                            미지의 그 영역을 찾게 한 순간<Br>
+                            묻혔던 감각들을 깨워낸 듯한 그곳은<Br><Br>
+                            중력보다 강하게 또 아주 깊숙하게<Br>
+                            헤어나지 못할 끝까지 끌어당겨 날<Br><Br>
+                            It's like we're underwater<Br>
+                            점점 깊어져 가<Br>
+                            밀려오는 널 품에 안을게<Br>
+                            내 숨을 가져가<Br><Br>
+                            My love goes deep deep deep<Br>
+                            깊어진 Your ocean<Br>
+                            짙어진 Emotion<Br>
+                            My love goes deep deep<Br>
+                            파란 속에 내 온몸을 맡긴 채<Br>
+                            너를 향해 Yeah yeah yeah<Br><Br>
+                            좀 더 숨겨 놔 은밀히 다<Br>
+                            어디든 가 I'm coming for you<Br><Br>
+                            파도치는 맘 버티지만<Br>
+                            거칠수록 I'm falling for you<Br>
+                            아찔하고 아득한 Falling<Br>
+                            I'll dive into you<Br><Br>
+                            난 그대가 저기 빛나는 별이라며<Br>
+                            고개를 들고 있었지만<Br>
+                            그대 위치는 바닷속<Br>
+                            늘 예상 밖의 Her 그대와 나 I miss<Br>
+                            믿을 수 없어도 나는 향해 Atlantis<Br><Br>
+                            We're under the water<Br>
+                            가늠할 수 없는 심해와의 Kiss<Br>
+                            나를 휩쓸어 가<Br>
+                            Uh huh uh huh<Br><Br>
+                            My love goes deep deep deep<Br>
+                            깊어진 Your ocean<Br>
+                            짙어진 Emotion<Br><Br>
+                            My love goes deep deep<Br>
+                            파란 속에 내 온몸을 맡긴 채<Br>
+                            너를 향해 Yeah yeah yeah<Br><Br>
+                            눈 앞에 널 만나 드디어 발견한<Br>
+                            실재할지 몰랐던 그 감정<Br><Br>
+                            We're under the water<Br>
+                            난 네 안에 잠겨<Br>
+                            내 숨을 가져가<Br><Br>
+                            My love goes deep deep deep<Br>
+                            깊어진 Your ocean<Br>
+                            짙어진 Emotion<Br><Br>
+                            My love goes deep deep<Br>
+                            파란 속에 내 온몸을 맡긴 채<Br>
+                            너를 향해 Yeah yeah yeah<Br><Br>
+                            It's like we are under water<Br>
+                            Like we're under water<Br>
+                            It's like we are under water<Br>
+                            너를 향해 Yeah yeah yeah<Br>
+
+                        </div>
+                        <div class="lyric lyric2">
+                            <img src="images/close .png" alt="close">
+
+                            <span>
+                                <h2>2. CØDE <span class="time"> (03:15)</span></h2>
+                            </span>
+
+                            Don’t speak about, Be about it<br>
+                            너란 답에 가까워지길 바라<br>
+                            차갑고 단조로운 너의 기호<br>
+                            알아 난 그 이상의 뭔갈 봐<br><br>
+
+                            Looking for the real baby here we are<br>
+                            비밀스런 Key 너를 열어 봐<br>
+                            아름답지만 풀지 못한<br>
+                            볼수록 황홀한 너는 누구야<br><br>
+
+                            Tell me tell me what it is<br>
+                            어느 순간 내 안에 스며든<br>
+                            낯선 어떤 언어<br>
+                            Oh show me now<br>
+                            널 움직이고 생각하고<br>
+                            숨 쉬게 한 그게 뭐인지<br>
+                            I need to know<br><br>
+
+                            내게 허락된 길 보인다면<br>
+                            널 더 알래 더 깊이<br><br>
+
+                            Let’s crack the CØDE<br>
+                            미지 속 답을 찾자<br>
+                            길을 잃은 채<br>
+                            헤매이던 밤<br>
+                            끝이 보일 때<br><br>
+
+                            넌 퍼져와 지배해<br>
+                            To my system<br>
+                            You’re giving me control<br>
+                            잠들었던 날<br>
+                            움직이는 CØDE<br>
+                            불러내<br><br>
+
+                            움직이는 CØDE<br>
+                            움직이는 CØDE<br><br>
+
+                            Crack the CØDE<br>
+                            Crack the CØDE yeah<br><br>
+
+                            It’s too much 그러지는 마<br>
+                            사소한 오류로도 나는<br>
+                            망가지잖아<br>
+                            ‘Cause deep down<br>
+                            불안해하는 너를 알고 있어<br>
+                            안아줄게<br><br>
+
+                            We’re lost in the rain<br>
+                            So let’s run away<br>
+                            우린 서로뿐인데<br><br>
+
+                            Let’s crack the CØDE<br>
+                            미지 속 답을 찾자<br>
+                            길을 잃은 채<br>
+                            헤매이던 밤<br>
+                            끝이 보일 때<br><br>
+
+                            넌 퍼져와 지배해<br>
+                            To my system<br>
+                            You’re giving me control<br>
+                            잠들었던 날<br>
+                            움직이는 CØDE<br>
+                            불러내<br><br>
+
+                            도망쳐 날 따라와<br>
+                            우리를 둘러싼 현실을 버리자<br>
+                            따스한 온기를<br>
+                            믿어도 돼 괜찮아 Tonight<br>
+                            Don’t leave my sight<br>
+                            No!<br>
+                            Yeah CØDE<br>
+                            Oh no oh no<br><br>
+
+                            넌 퍼져와 지배해<br>
+                            To my system<br>
+                            You’re giving me control<br>
+                            잠들었던 날<br>
+                            움직이는 CØDE<br>
+                            불러내<br><br>
+
+                            You’re giving me control<br>
+                            Let’s crack the CØDE for nights<br>
+                            You’re giving me control<br>
+                            잠들었던 날<br>
+                            움직이는 CØDE<br>
+                            불러내<br>
+                        </div>
+                        <div class="lyric lyric3">
+                            <img src="images/close .png" alt="close">
+                            <span>
+                                <h2>3. Don't call me <span class="time">(03:41)</span></h2>
+                            </span>
+
+                            Don’t call me (Check this out yo’ll)<Br>
+                            Don’t call me<Br>
+                            Don’t call me (I don’t want you back, don’t call me)<Br>
+                            Don’t call me<Br>
+                            Don’t call me (I keep saying, next time은 없어 In your life)<Br>
+                            Don’t call me<Br>
+                            Don’t call me (Yeeaow)<Br>
+                            Don’t call<Br>
+                            <Br>
+                            깊어진 밤 집요하게<Br>
+                            벨이 울려 It’s your calling<Br>
+                            고집스럽고 지독하지<Br>
+                            그게 바로 너 Still call<Br>
+                            <Br>
+                            너는 쉽게 포기 못해<Br>
+                            그 성질 버리지 못해<Br>
+                            온종일 내 이름만 서치해<Br>
+                            내 흔적들을 찾아 핥아 대<Br>
+                            <Br>
+                            내 아침을 망치곤 해<Br>
+                            그 패턴은 뻔해<Br>
+                            관심 꺼줄래<Br>
+                            I know where you came from<Br>
+                            <Br>
+                            한때는 나의 Shawty<Br>
+                            사라져 줄래 저리<Br>
+                            Don’t think about calling<Br>
+                            <Br>
+                            넌 못 버티겠지<Br>
+                            집착뿐이겠지<Br>
+                            나처럼 잘한 사람 없을 거니까<Br>
+                            너도 참 피곤했지<Br>
+                            전부 꾸며대니<Br>
+                            머릿속 꽤나 어지러웠을거야<Br>
+                            <Br>
+                            Don’t call me (미쳤어 넌)<Br>
+                            Don’t call me<Br>
+                            Don’t call me (You don’t know you waste my time)<Br>
+                            Don’t call me<Br>
+                            Don’t call me (느껴봐 넌 최악이야)<Br>
+                            Don’t call me<Br>
+                            Don’t call me (Wait I hate your call)<Br>
+                            Don’t call<Br>
+                            <Br>
+                            끝났어 너의 Love<Br>
+                            Don’t want it now ooh<Br>
+                            사랑하면 보내줘<Br>
+                            Don’t want it now ooh<Br>
+                            <Br>
+                            계속 말하잖아<Br>
+                            Next time은 없어 In your life<Br>
+                            네 사랑 난 이제 아냐<Br>
+                            지워 날 잊어버려 제발<Br>
+                            난 널 몰라<Br>
+                            So 내게 전화하지 마<Br>
+                            <Br>
+                            Sick of all your trash<Br>
+                            진짜 늦었다니까<Br>
+                            널 믿지 않아 You know why<Br>
+                            날 속였다는 걸 알아<Br>
+                            <Br>
+                            비극은 왜 사랑의 몫인데?<Br>
+                            슬픈 에픽 속<Br>
+                            그 끝을 보고 있네<Br>
+                            넌 못 버티겠지<Br>
+                            집착뿐이겠지<Br>
+                            나처럼 잘한<Br>
+                            사람 없을 거니 Ya<Br>
+                            <Br>
+                            Don’t call me (미쳤어 넌)<Br>
+                            Don’t call me<Br>
+                            Don’t call me (You don’t know you waste my time)<Br>
+                            Don’t call me<Br>
+                            Don’t call me (느껴봐 넌 최악이야)<Br>
+                            Don’t call me<Br>
+                            Don’t call me (Wait I hate your call)<Br>
+                            Don’t call<Br>
+                            <Br>
+                            끝났어 너의 Love<Br>
+                            Don’t want it now ooh<Br>
+                            사랑하면 보내줘<Br>
+                            Don’t want it now ooh<Br>
+                            <Br>
+                            계속 말하잖아<Br>
+                            Next time은 없어 In your life<Br>
+                            네 사랑 난 이제 아냐<Br>
+                            지워 날 잊어버려 제발<Br>
+                            난 널 몰라<Br>
+                            So 내게 전화하지 마<Br>
+                            <Br>
+                            아직 허튼 꿈속에서 포기 못 했니<Br>
+                            I’ll never pick up 지워버렸어<Br>
+                            I’m gonna save my love<Br>
+                            For the next call<Br>
+                            (Sorry the number you have called has been disconnected)<Br>
+                            Woo
+                            <Br>
+                            Don’t call me (끝났어 Love)<Br>
+                            Don’t call me<Br>
+                            Don’t call me (I said I don’t want it now)<Br>
+                            Don’t call me<Br>
+                            Don’t call me (사랑했다면 보내줘)<Br>
+                            Don’t call me<Br>
+                            Don’t call me (Wait I hate your call)<Br>
+                            Don’t call<Br>
+                            <Br>
+                            난 찾을 거야 Love<Br>
+                            더 아름다운<Br>
+                            지독했던 너와 나<Br>
+                            잊을 수 있는<Br>
+                            <Br>
+                            계속 말하잖아<Br>
+                            Next time은 없어 In your life<Br>
+                            네 사랑 난 이제 아냐<Br>
+                            지워 날 잊어버려 제발<Br>
+                            난 널 몰라<Br>
+                            So 내게 전화하지 마<Br>
+                        </div>
+                        <div class="lyric lyric4">
+                            <img src="images/close .png" alt="close">
+                            <span>
+                                <h2>4. 같은 자리 Area<span class="time"> (03:28)</span></h2>
+                            </span>
+
+                            어두운 길 위로 희미한 불빛<br>
+                            여전히 잠들지 못한 밤 Tonight<br>
+                            Oh night<br>
+                            Starry night<br>
+                            Ooh<br>
+                            <br>
+                            채워지지가 않아 너의 빈자리<br>
+                            그날에 난 멈춰선 채 같은 Area<br>
+                            늘 같은 자리야 Ooh yeah<br>
+                            <br>
+                            지워낼 수 없는 아픈 네 빈자리<br>
+                            더 지독히 짙게 남겨진 Area<br>
+                            Ooh yeah<br>
+                            The night is never gonna be the same yeah<br>
+                            <br>
+                            스쳐 지난 잔상 다시 네가 보여<br>
+                            가만히 날 보고 웃어 Uh yeah<br>
+                            멍하니 있던 몸을 움직여<br>
+                            한 걸음 뒤 넌 사라져<br>
+                            손엔 잡히지 않는 너 Na na na-<br>
+                            <br>
+                            채워지지가 않아 너의 빈자리<br>
+                            그날에 난 멈춰선 채 같은 Area<br>
+                            늘 같은 자리야 Ooh yeah<br>
+                            <br>
+                            지워낼 수 없는 아픈 네 빈자리<br>
+                            더 지독히 짙게 남겨진 Area<br>
+                            Ooh yeah<br>
+                            The night is never gonna be the same yeah<br>
+                            <br>
+                            어디쯤인 걸까 얼마나 온 걸까<br>
+                            어쩌면 아직 제자리<br>
+                            잃어버린 길 사이 Oh<br>
+                            Oh 털어내지도<br>
+                            Oh 삼켜내지도 Yeah 못 해<br>
+                            억지로 눈을 감아봐도 Same yeah<br>
+                            <br>
+                            채워지지가 않아 너의 빈자리<br>
+                            그날에 난 멈춰선 채 같은 Area<br>
+                            늘 같은 자리야 Ooh yeah<br>
+                            <br>
+                            지워낼 수 없는 아픈 네 빈자리<br>
+                            더 지독히 짙게 남겨진 Area<br>
+                            Ooh yeah<br>
+                            The night is never gonna be the same yeah<br>
+                            <br>
+                            지나지 못해 갇힌 너와 내 기억들이<br>
+                            멋대로 불어나<br>
+                            Keep awake awake awake<br>
+                            후회 지워낼수록 번진<br>
+                            결국엔 더 짙어진 의미<br>
+                            <br>
+                            Ooh-<br>
+                            또 말없이 다가와서<br>
+                            내 맘속을 헤집는 너<br>
+
+                            떠나지 못해 네가 없는 빈자리<br>
+                            그 누구도 채울 수가 없는 Area<br>
+                            매번 제자리야 Ooh yeah<br>
+                            <br>
+                            지워낼 수 없는 아픈 네 빈자리<br>
+                            더 지독히 짙게 남겨진 Area<br>
+                            Ooh yeah<br><br>
+                            The night is never gonna be the same yeah<br>
+                        </div>
+                        <div class="lyric lyric5">
+                            <img src="images/close .png" alt="close">
+                            <span>
+                                <h2>5. Heart Attack <span class="time">(03:00)</span></h2>
+                            </span>
+
+                            널 들이켜 내 온몸에 퍼진<br>
+                            낯선 흥분을 받아들이려 해<br>
+                            더 뜨거워져 It’s not a simple crush<br>
+                            도망치지 않아 이건 꿈이 아냐<br>
+                            널 원하고 있어<br>
+                            <br>
+                            차갑던 심장 네 손에<br>
+                            그 운명을 맡긴 채<br>
+                            You know this You know this<br>
+                            가혹한 전율의 끝에<br>
+                            흘러내리는 내 눈물은<br>
+                            환희로 빛나<br>
+                            <br>
+                            ‘Cause you are my boo<br>
+                            무너지는 Edge<br>
+                            순간 고동치는 Joy<br>
+                            Like a heart attack<br>
+                            나를 무너트리고<br>
+                            꿰뚫은 채로<br>
+                            영원히 머물<br>
+                            Like a heart attack<br>
+                            <br>
+                            Heart goes pit-a-pat<br>
+                            벅찬 이 감정<br>
+                            The crazy kind of love<br>
+                            Like a heart attack<br>
+                            <br>
+                            메말랐던 텅 빈 내 안에<br>
+                            네가 쏟아져 잠기고 있는 걸<br>
+                            날카로운 이 고통은 내 눈을 뜨게 하니<br>
+                            난 감당 할 수 있어 음미하고 싶어<br>
+                            좀 미친 것 같아<br>
+                            <br>
+                            아무도 나를 이렇게<br>
+                            부숴버리지 못해<br>
+                            You know this You know this<br>
+                            빛처럼 퍼져가는 Crack<br>
+                            그 안은 너로 가득 차 있어<br>
+                            I just can’t believe<br>
+                            <br>
+                            ‘Cause you are my boo<br>
+                            무너지는 Edge<br>
+                            순간 고동치는 Joy<br>
+                            Like a heart attack<br>
+                            나를 무너트리고<br>
+                            꿰뚫은 채로<br>
+                            영원히 머물<br>
+                            Like a heart attack<br>
+                            <br>
+                            무릎 꿇고 있잖아<br>
+                            My heart’s on overdrive every time<br>
+                            너 때문인데 위태롭게 빛난<br>
+                            그런 너인데 손에 잡힐 듯한<br>
+                            If this is love then I can’t deny<br>
+                            <br>
+                            ‘Cause you are my boo<br>
+                            무너지는 Edge<br>
+                            순간 고동치는 Joy<br>
+                            Like a heart attack<br>
+                            나를 무너트리고<br>
+                            꿰뚫은 채로<br>
+                            영원히 머물<br>
+                            Like a heart attack<br>
+                            <br>
+                            Obey<br>
+                            <br>
+                            Heart goes pit-a-pat<br>
+                            벅찬 이 감정<br>
+                            The crazy kind of love<br>
+                            Like a heart attack<br>
+                            <br>
+                            ‘Cause you are my boo<br>
+                            무너지는 Edge<br>
+                            고동치는 Joy<br>
+                            Like a heart attack<br>
+                        </div>
+                        <div class="lyric lyric6">
+                            <img src="images/close .png" alt="close">
+                            <span>
+                                <h2>6. Marry you<span class="time"> (03:01)</span></h2>
+                            </span>
+
+                            아무도 보이지 않는 곳으로<br>
+                            떠나야겠어<br>
+                            저 남자들 안 보는 척하면서<br>
+                            But 다 Attention<br>
+                            눈이 부시겠지 새하얀 미소<br>
+                            넌 늘 빛을 내서<br>
+                            뭐 아닌척해도 솔직히 난<br>
+                            가끔은 불안해져<br>
+                            <br>
+                            몰라 미친 소리 같겠지만 확실히 해<br>
+                            어디 도망 못 가게<br>
+                            네 번째 손가락을 줘<br>
+                            <br>
+                            Girl I wanna marry you<br>
+                            Right here right now yeah<br>
+                            I wanna marry you<br>
+                            <br>
+                            Girl I wanna marry you<br>
+                            Right here right now yeah<br>
+                            I wanna marry you<br>
+                            <br>
+                            아직도 너무 예뻐<br>
+                            볼 때마다 숨이 멎지<br>
+                            I need a doctor<br>
+                            불치병인 듯 여전히 Lovesick<br>
+                            시간이 갈수록<br>
+                            더 심각해 I want you<br>
+                            아직도 내 삶의<br>
+                            Everything my love<br>
+                            <br>
+                            정말 안 되겠어 더이상 아프지 않게<br>
+                            내 옆에 있어 주면 돼<br>
+                            네 번째 손가락을 줘<br>
+                            <br>
+                            Girl I wanna marry you<br>
+                            Right here right now yeah<br>
+                            I wanna marry you<br>
+                            <br>
+                            Girl I wanna marry you<br>
+                            Right here right now yeah<br>
+                            I wanna marry you<br>
+                            <br>
+                            지금 아니면 왠지<br>
+                            후회할 것 같아<br>
+                            오늘인 듯해 Baby<br>
+                            너의 네 번째 손가락 위에 나<br>
+                            널 닮은 Diamond ring<br>
+                            바칠게 널 위해<br>
+                            지금 나와 약속해줄래 Tonight<br>
+                            <br>
+                            Girl I wanna marry you<br>
+                            Right here right now yeah<br>
+                            I wanna marry you<br>
+                            (Oh I wanna marry you)<br>
+                            <br>
+                            Girl I wanna marry you<br>
+                            Right here right now yeah (Marry you right here right now)<br>
+                            I wanna marry you (I wanna marry you)<br>
+                            <br>
+                            I wanna marry you<br>
+                        </div>
+                    </di>
+                    <div class="lyric_right">
+                        <div class="lyric lyric7">
+                            <img src="images/close .png" alt="close">
+                            <span>
+                                <h2>7. Days and Years <span class="time">(03:57)</span></h2>
+                            </span>
+
+                            다투며 하루를 보내도<br>
+                            다음 날엔 전부 잊은 듯해<br>
+                            또 다정해져 우린 다 별거 아닌 듯이<br>
+                            가끔은 소리를 지르고<br>
+                            낡고 녹슨 시소를 타는 것처럼<br>
+                            삐걱거리기도 해 아주 잠깐<br>
+                            <br>
+                            모든 그 순간이 완벽하진 않아도<br>
+                            Days and years days and years<br>
+                            <br>
+                            봐 여기 있을 거야 난 네가 여기 있는 한<br>
+                            그건 당연하잖아<br>
+                            네가 나를 지켜줬듯이 나도 지켜줄게 널<br>
+                            앞으로도 영원히<br>
+                            <br>
+                            나와 같이 Days and years<br>
+                            Loving you for days and years<br>
+                            지금같이 Days and years<br>
+                            Loving you for days and years<br>
+                            <br>
+                            우리가 나눈 이 감정이<br>
+                            사랑이 전부는 아니겠지<br>
+                            그건 분명해 말로는 설명 못 해<br>
+                            가끔은 고집을 피우고<br>
+                            깨져버린 어항에 담긴 물처럼<br>
+                            서로를 서운하게 해 아주 잠깐<br>
+                            <br>
+                            모든 그 순간이 대단하진 않아도<br>
+                            Days and years days and years<br>
+                            <br>
+                            봐 여기 있을 거야 난 네가 여기 있는 한<br>
+                            그건 당연하잖아<br>
+                            네가 나를 지켜줬듯이 나도 지켜줄게 널<br>
+                            앞으로도 영원히<br>
+                            <br>
+                            나와 같이 Days and years<br>
+                            Loving you for days and years<br>
+                            지금같이 Days and years<br>
+                            Loving you for days and years<br>
+                            <br>
+                            We'll go get it in the morning<br>
+                            그토록 기다려왔던<br>
+                            빛나는 시간 속에 Eh eh<br>
+                            모든 것을 맡긴 채<br>
+                            <br>
+                            손을 뻗으면 마치 닿을 것 같이<br>
+                            너무 아름다운 너<br>
+                            더 높이 더 멀리 갈 수 있게<br>
+                            손을 잡아줘 Oh oh<br>
+                            <br>
+                            봐 변함없을 거야 난<br>
+                            네가 그랬으니까 네게 배웠으니까<br>
+                            네가 나를 지켜줬듯이 나도 지켜줄게 널<br>
+                            앞으로도 영원히<br>
+                            <br>
+                            나와 같이 Days and years<br>
+                            Loving you for days and years<br>
+                            지금같이 Days and years<br>
+                            Loving you for days and years<br>
+                            <br>
+                            (나와 같이 Days and years)<br>
+                            많은 일이 있었고 또 일어나겠지<br>
+                            (Loving you for Days and years)<br>
+                            크고 작은 모든 장면에<br>
+                            (지금같이 Days and years)<br>
+                            다행이야 내가 너와 함께라는 게<br>
+                            (Loving you for days and years)<br>
+                            해가 뜨지 않는 날까지<br>
+                            <br>
+                            나와 같이 Days and years<br>
+                        </div>
+                        <div class="lyric lyric8">
+                            <img src="images/close .png" alt="close">
+                            <span>
+                                <h2>8. I Really Want You <span class="time"> (03:18)</span></h2>
+                            </span>
+
+                            본능적인 이끌림이<br>
+                            너를 향해 쏟아지지<br>
+                            제정신이 아닌 듯해<br>
+                            알고 싶은 Secret<br>
+                            <br>
+                            저 하늘 위에 구름이<br>
+                            달을 가려 두듯이<br>
+                            달뜬 맘을 누르지<br>
+                            오늘만큼은<br>
+                            <br>
+                            네게 더 다가가<br>
+                            And work it out<br>
+                            커져버린 끌림 속<br>
+                            I'll show you how<br>
+                            한 걸음 더 너도 다가와<br>
+                            절정으로 물든 맘이 터져 Now<br>
+                            <br>
+                            I really want you Ooh babe<br>
+                            네가 내게 다가올 때<br>
+                            I really want you Ooh babe<br>
+                            내게 눈을 맞춰올 때<br>
+                            I really want you Ooh babe<br>
+                            눈이 살짝 휘어질 때<br>
+                            I really want you Ooh babe<br>
+                            살짝 손이 닿아올 때<br>
+                            <br>
+                            즉흥적인 감정들이<br>
+                            조화롭게 만드는 Scene<br>
+                            네 예상이 빗나가게<br>
+                            자꾸 널 흔들지<br>
+                            <br>
+                            더 퍼져가는 푸른빛<br>
+                            너의 뒤로 물드니<br>
+                            커져가는 물음이<br>
+                            이끄는 대로<br>
+                            <br>
+                            네게 더 다가가<br>
+                            And work it out<br>
+                            커져버린 끌림 속<br>
+                            I'll show you how<br>
+                            한 걸음 더 너도 다가와<br>
+                            절정으로 물든 맘이 터져 Now<br>
+                            <br>
+                            I really want you Ooh babe<br>
+                            네가 내게 다가올 때<br>
+                            I really want you Ooh babe<br>
+                            내게 눈을 맞춰올 때<br>
+                            I really want you Ooh babe<br>
+                            눈이 살짝 휘어질 때<br>
+                            I really want you Ooh babe<br>
+                            살짝 손이 닿아올 때<br>
+                            <br>
+                            겉만 보고 판단은 말아 Bae<br>
+                            널 쳐다보는 눈 너무 많아 Bae<br>
+                            I can’t relax 숨을 쉴래<br>
+                            네 Aura 멀리서도 튀네<br>
+                            <br>
+                            완벽이란 벽에 갇혔어<br>
+                            네 향긴 내게로 퍼져서<br>
+                            심장은 더 세게 뛰네<br>
+                            Up & down like elevator woo<br>
+                            <br>
+                            하고 싶은 말들을 굳이<br>
+                            하나하나 고르지 마<br>
+                            아주 작은 움직임까지<br>
+                            전부 나를 들었다 놔<br>
+                            <br>
+                            바로 지금 순간의 느낌<br>
+                            알고 싶어 모든 걸 다<br>
+                            넘쳐버린 마음은 이미<br>
+                            <br>
+                            네게 더 다가가<br>
+                            And work it out<br>
+                            커져버린 끌림 속<br>
+                            I'll show you how<br>
+                            한 걸음 더 너도 다가와<br>
+                            절정으로 물든 맘이 터져 Now<br>
+                            <br>
+                            I really want you Ooh babe<br>
+                            네가 내게 다가올 때<br>
+                            I really want you Ooh babe<br>
+                            내게 눈을 맞춰올 때<br>
+                            I really want you Ooh babe<br>
+                            선을 넘고 싶어질 때<br>
+                            I really want you Ooh babe<br>
+                            이제 우리 시작해 babe<br>
+                        </div>
+                        <div class="lyric lyric9">
+                            <img src="images/close .png" alt="close">
+                            <span>
+                                <h2>9. Kiss Kiss <span class="time">(03:36)</span></h2>
+                            </span>
+
+                            Ooo ah look at you<br>
+                            치솟는 짧은 현기증<br>
+                            제법 능숙하게 숨겨도<br>
+                            시선은 고정되잖아<br>
+                            <br>
+                            우아한 표정<br>
+                            조각 같은 Posture<br>
+                            왠지 흩뜨리고 싶어<br>
+                            난 거리를 좀 더 좁혀가<br>
+                            <br>
+                            지금부터 난 너의<br>
+                            속눈썹을 셀 거야<br>
+                            그 떨림을 느낀 뒤<br>
+                            잠깐의 짧은 닿음 끝에<br>
+                            너의 숨의 속도를 잴 거야<br>
+                            그래 다른 말론<br>
+                            <br>
+                            I just wanna kiss<br>
+                            Kiss your lips<br>
+                            퍼져가는 Taste<br>
+                            짜릿하지<br>
+                            Eyes nose lips<br>
+                            더 가까이<br>
+                            이걸로는 부족하니<br>
+                            So come and gimme that<br>
+                            kiss kiss kiss kiss<br>
+                            <br>
+                            Ooo ah<br>
+                            Come and gimme that<br>
+                            kiss kiss kiss kiss<br>
+                            Ooo ah<br>
+                            다시 한 번 더<br>
+                            Kiss kiss kiss kiss<br>
+                            <br>
+                            다음 단계로 Move<br>
+                            빨라진 호흡의 춤
+                            Ooo 미친 듯 뛰는 심장이<br>
+                            나인지 너인지 잘 몰라<br>
+                            <br>
+                            살짝 얹은 손<br>
+                            그 느낌이 So sensual<br>
+                            Ooo 너에게 옮은 향<br>
+                            정말 소름 끼치게 좋은 것 같아<br>
+                            <br>
+                            나의 입술로 너의<br>
+                            맘을 읽어 낼 거야<br>
+                            그 토씨 하나까지<br>
+                            색다른 방식으로<br>
+                            둘 사이의 언어를 만드는 거야<br>
+                            쉽게 말하자면<br>
+                            <br>
+                            I just wanna kiss<br>
+                            Kiss your lips<br>
+                            퍼져가는 Taste<br>
+                            짜릿하지<br>
+                            Eyes nose lips<br>
+                            더 가까이<br>
+                            이걸로는 부족하니<br>
+                            So come and gimme that<br>
+                            kiss kiss kiss kiss<br>
+                            <br>
+                            Ooo ah<br>
+                            Come and gimme that<br>
+                            kiss kiss kiss kiss<br>
+                            Ooo ah<br>
+                            다시 한 번 더<br>
+                            Kiss kiss kiss kiss<br>
+                            <br>
+                            길고도 짧은 사이<br>
+                            공기가 바뀌어 가<br>
+                            시야가 온통 하얘 high해<br>
+                            <br>
+                            마주친 코끝 사이<br>
+                            흐려져 가는 sight<br>
+                            아득해지잖아<br>
+                            Yeah I just need your kiss<br>
+                            <br>
+                            Kiss your lips<br>
+                            Cherry berry taste<br>
+                            달콤하지<br>
+                            <br>
+                            Eyes nose lips<br>
+                            말고 어디<br>
+                            이걸로는 부족하니<br>
+                            So come and give me that<br>
+                            kiss kiss kiss kiss<br>
+                            <br>
+                            Ooo ah<br>
+                            Come and gimme that<br>
+                            kiss kiss kiss kiss<br>
+                            Ooo ah<br>
+                            다시 한 번 더<br>
+                            Kiss kiss kiss kiss<br>
+                            <br>
+                            Ooo ah<br>
+                            Come and gimme that<br>
+                            kiss kiss kiss kiss<br>
+                            Ooo ah<br>
+                            다시 한 번 더<br>
+                            Kiss kiss kiss kiss<br>
+                        </div>
+                        <div class="lyric lyric10">
+                            <img src="images/close .png" alt="close">
+                            <span>
+                                <h2>10. Attention<span class="time"> (03:45)</span></h2>
+                            </span>
+
+                            반쯤 닫힌 네 창문을 타고<br>
+                            낯선 휘파람 소리 들려오니<br>
+                            굳이 오지도 않는<br>
+                            잠에 빠지지 말고<br>
+                            지금 더 늦기 전에 내려와 봐<br>
+                            <br>
+                            숨 가삐 달려온 네 평범한 하루 위<br>
+                            네 손을 꼭 잡고서<br>
+                            걷고 싶은 밤인 걸<br>
+                            별 계획 없이<br>
+                            Dancing round each other<br>
+                            이 순간 네 맘도<br>
+                            예외일 것 같진 않은데<br>
+                            <br>
+                            어느새 우린 그 끝을 모른 채<br>
+                            무의식 깊은 한 곳이 동요돼<br>
+                            더 망설일 틈 없이<br>
+                            선을 넘은 그 순간<br>
+                            <br>
+                            왠지 아슬한 Tension<br>
+                            놀라운 Motion<br>
+                            두 발이 땅에 뜬 듯해<br>
+                            온몸엔 살짝 힘을 빼<br>
+                            이 기분의 원인<br>
+                            네 무드로 채워줘 Feel the same<br>
+                            텅 빈 내 맘까지 다<br>
+                            다채로울 오늘 밤<br>
+                            <br>
+                            아득한 저 우주 위<br>
+                            사랑이란 Chemistry<br>
+                            끝내 서로에게<br>
+                            Finally sinking in<br>
+                            우린 같은 걸 느껴<br>
+                            묘한 Emotion<br>
+                            그 모든 시작과 끝<br>
+                            이 감정에 Attention<br>
+                            <br>
+                            Attention<br>
+                            <br>
+                            눈부신 야경 위<br>
+                            펼쳐진 둘만의 여행<br>
+                            상상만으로 과분한<br>
+                            형용 못 하게 조금 거창한 yeah<br>
+                            이 밤의 루트를<br>
+                            다 예측할 순 없기에<br>
+                            길을 잃어도<br>
+                            네 옆에선 더 큰 세상을 봐<br>
+                            <br>
+                            이대로 우린 시간도 잊은 채<br>
+                            서로의 깊은 한 곳이 공유돼<br>
+                            네 왼쪽 편에 선 채<br>
+                            손을 잡은 그 순간<br>
+                            <br>
+                            왠지 아슬한 Tension<br>
+                            놀라운 Motion<br>
+                            두 발이 땅에 뜬 듯해<br>
+                            온몸엔 살짝 힘을 빼<br>
+                            이 기분의 원인<br>
+                            네 무드로 채워줘 Feel the same<br>
+                            텅 빈 내 맘까지 다<br>
+                            다채로울 오늘 밤<br>
+                            <br>
+                            아득한 저 우주 위<br>
+                            사랑이란 Chemistry<br>
+                            끝내 서로에게<br>
+                            Finally sinking in<br>
+                            우린 같은 걸 느껴<br>
+                            묘한 Emotion<br>
+                            그 모든 시작과 끝<br>
+                            이 감정에 Attention<br>
+                            <br>
+                            가장 밝은 별을 손에 쥔 듯한<br>
+                            보다 아름답고 원초적인 Light<br>
+                            그게 넌 역시 사랑이란 걸<br>
+                            알잖아<br>
+                            <br>
+                            왠지 아슬한 Tension<br>
+                            놀라운 Motion<br>
+                            두 발이 땅에 뜬 듯해<br>
+                            온몸엔 살짝 힘을 빼<br>
+                            이 기분의 원인<br>
+                            네 무드로 채워줘 Feel the same<br>
+                            텅 빈 내 맘까지 다<br>
+                            다채로울 오늘 밤<br>
+                            <br>
+                            아득한 저 우주 위<br>
+                            사랑이란 Chemistry<br>
+                            끝내 서로에게<br>
+                            Finally sinking in<br>
+                            우린 같은 걸 느껴<br>
+                            묘한 Emotion<br>
+                            그 모든 시작과 끝<br>
+                            이 감정에 Attention<br>
+                            <br>
+                            Attention<br>
+                        </div>
+                        <div class="lyric lyric11">
+                            <img src="images/close .png" alt="close">
+                            <span>
+                                <h2>11. Body Rhythm<span class="time"> (03:13)</span></h2>
+                            </span>
+
+                            Won’t you follow my body rhythm<br>
+                            Come and follow my body rhythm<br>
+                            계속 따라와 봐 끌리고 있잖아<br>
+                            Give up give up give up woo<br>
+                            <br>
+                            한 손엔 너를 가득 담은 채<br>
+                            나른하게 눈을 감고 음미해<br>
+                            I got it yeah I want it<br>
+                            Woo yeah<br>
+                            <br>
+                            판단은 필요 없어 이럴 땐<br>
+                            타고 내려 내 몸에 넌 이렇게<br>
+                            I got it yeah I want it<br>
+                            Woo yeah<br>
+                            <br>
+                            가차 없이 넌 내 모든<br>
+                            여러 날을 또 여러 밤을<br>
+                            가져가고도 모자라<br>
+                            More more more and more more<br>
+                            <br>
+                            Won’t you follow my body rhythm<br>
+                            Come and follow my body rhythm<br>
+                            달콤히 내 손 잡고 춤을 추면 돼<br>
+                            지금 Oh my my my<br>
+                            <br>
+                            Won’t you follow my body rhythm<br>
+                            Come and follow my body rhythm<br>
+                            계속 따라와 봐 끌리고 있잖아<br>
+                            Give up give up give up woo<br>
+                            <br>
+                            잠깐만 Hold up 너 나랑 춤춰<br>
+                            (뭐가 부끄러워)<br>
+                            네 Rhythm 쉿 이뻐<br>
+                            심장이 원래 이렇게 빨리 뛰었나<br>
+                            거의 두 배 우린 이제 Too fast<br>
+                            <br>
+                            점점 더 빨라지는 숨소리<br>
+                            이 온도를 끌어줘 또 One two three<br>
+                            한 번 더 Baby come closer<br>
+                            Woo yeah<br>
+                            <br>
+                            갖고 싶다면 언제든<br>
+                            휘두르든 또 휘어 감든<br>
+                            그 상태로 널 따라줘<br>
+                            More more more and more more<br>
+                            <br>
+                            Won’t you follow my body rhythm<br>
+                            Come and follow my body rhythm<br>
+                            달콤히 내 손 잡고 춤을 추면 돼<br>
+                            지금 Oh my my my<br>
+                            <br>
+                            Won’t you follow my body rhythm<br>
+                            Come and follow my body rhythm<br>
+                            계속 따라와 봐 끌리고 있잖아<br>
+                            Give up give up give up woo<br>
+                            <br>
+                            (Body body) Body body rhythm<br>
+                            (Body body) Body body rhythm<br>
+                            첫 느낌대로 내게 스며들면 돼<br>
+                            그대로 좋아 Oh my<br>
+                            <br>
+                            거침없이 넌 가끔은 떫고<br>
+                            단 것도 같아 넌 내게 매일<br>
+                            거짓이 아냐 그저 널 느껴<br>
+                            감미로워 모든 게<br>
+                            Won’t won’t won’t won’t won’t won’t<br>
+                            <br>
+                            Won’t you follow my body rhythm<br>
+                            Come and follow my body rhythm<br>
+                            달콤히 내 손 잡고 춤을 추면 돼<br>
+                            지금 Oh my my my<br>
+                            <br>
+                            Won’t you follow my body rhythm<br>
+                            Come and follow my body rhythm<br>
+                            계속 따라와 봐 끌리고 있잖아<br>
+                            Give up give up give up woo<br>
+                            <br>
+                            (Body body) Body body rhythm<br>
+                            (Body body) Body body rhythm<br>
+                            끝을 말하지 마 그걸 원하잖아<br>
+                            Give up give up give up<br>
+                            <br>
+                            Woo<br>
+                        </div>
+                        <div class="lyric lyric12">
+                            <img src="images/close .png" alt="close">
+                            <span>
+                                <h2>12. 빈칸 Kind <span class="time">(03:21)</span></h2>
+                            </span>
+
+                            그 시간 속 너였던 나<br>
+                            그 시간 속 나였던 너<br>
+                            흔들리던 계절마다<br>
+                            내 곁에 있어 준 넌 Kind<br>
+                            길을 잃고 헤매도<br>
+                            결국엔 너를 찾는 나<br>
+                            이제 난 알 것 같아 다<br>
+                            늘 비워 둔 빈칸<br>
+                            답을 적을 Time<br>
+                            <br>
+                            출구가 사라진 미로 속을 걷고<br>
+                            홀로 한심해하고<br>
+                            손에 쥐어진 백지 같은 매일<br>
+                            쏟아지는 질문들<br>
+                            답을 모른 채 방황하던<br>
+                            내 앞에 나타나 준 건<br>
+                            <br>
+                            You<br>
+                            You always know always know<br>
+                            You<br>
+                            You always know always know<br>
+                            <br>
+                            그 시간 속 너였던 나<br>
+                            그 시간 속 나였던 너<br>
+                            흔들리던 계절마다<br>
+                            내 곁에 있어 준 넌 Kind<br>
+                            길을 잃고 헤매도<br>
+                            결국엔 너를 찾는 나<br>
+                            이제 난 알 것 같아 다<br>
+                            늘 비워 둔 빈칸<br>
+                            답을 적을 Time<br>
+                            <br>
+                            차갑고 공허한 미래<br>
+                            어떤 기대 없이 버티고 있던<br>
+                            무너지려던 그때<br>
+                            그런 내게 손을 내밀어준 너<br>
+                            찢긴 문제지 같던<br>
+                            내 삶의 정답은 늘 너였어<br>
+                            <br>
+                            You<br>
+                            You always know always know<br>
+                            You<br>
+                            You always know always know<br>
+                            <br>
+                            그 시간 속 너였던 나<br>
+                            그 시간 속 나였던 너<br>
+                            흔들리던 계절마다<br>
+                            내 곁에 있어 준 넌 Kind<br>
+                            길을 잃고 헤매도<br>
+                            결국엔 너를 찾는 나<br>
+                            이제 난 알 것 같아 다<br>
+                            늘 비워 둔 빈칸<br>
+                            답을 적을 Time<br>
+                            <br>
+                            Yeah<br>
+                            <br>
+                            (Time)<br>
+                            Always know always know always know<br>
+                            (You’ve always been so kind)<br>
+                            (Kind)<br>
+                            You always know always know<br>
+                            (Time)<br>
+                            You always know always know<br>
+                            (Kind)<br>
+                            You always know always know<br>
+                            <br>
+                            그 시간 속 너였던 나<br>
+                            그 시간 속 나였던 너<br>
+                            서툴던 계절을 지나<br>
+                            너라는 답을 찾은 나<br>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="sec3">
+                <div class="sec3_frame">
+                    <ul class="carousel">
+                        <li class="items main-pos" id="1">
+                            <iframe width="720" height="405" src="https://www.youtube.com/embed/PSYRbJjIT6U"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <h3> SHINee 샤이니 'Atlantis' MV</h3>
                         </li>
-
-                        <li>
-                            <div>
-                                <a href="#" class="pepper"><img src="icon/no-pepper.png" alt="pepper" class="empty"></a>
-                                <!-- <a href="#"><img src="icon/icon_pepper.png" alt="pepper" class="full"></a> -->
-
-                            </div>
-                            <p><a href="#">마법의 향신료</a></p>
+                        <li class="items right-pos" id="2">
+                            <iframe width="720" height="405" src="https://www.youtube.com/embed/p6OoY6xneI0"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <h3>
+                                SHINee 샤이니 'Don't Call Me' MV</h3>
                         </li>
-
-                        <li>
-                            <div>
-                                <a href="#" class="pasta"><img src="icon/no-pasta.png" alt="pasta" class="empty"></a>
-                                <!-- <a href="#"><img src="icon/icon_pasta.png" alt="pasta" class="full"></a> -->
-
-                            </div>
-                            <p><a href="#">파스타 면</a></p>
+                        <li class="items back-pos" id="3">
+                            <iframe width="720" height="405" src="https://www.youtube.com/embed/m5RJNe01ULg"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <h3>SHINee(샤이니) - Atlantis @인기가요 inkigayo 20210418</h3>
                         </li>
-
-                        <li>
-                            <div>
-                                <a href="#" class="jar"><img src="icon/no-jar.png" alt="jar" class="empty"></a>
-                                <!-- <a href="#"><img src="icon/icon_jar.png" alt="jar" class="full"></a> -->
-                            </div>
-                            <p><a href="#">병 / 통조림</a></p>
+                        <li class="items back-pos" id="4">
+                            <iframe width="720" height="405" src="https://www.youtube.com/embed/EXkfrmEiiD4"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <h3>Atlantis - SHINee(샤이니) [뮤직뱅크/Music Bank] | KBS 210416 </h3>
                         </li>
-
-                        <li>
-                            <div>
-                                <a href="#" class="ham"><img src="icon/no-ham.png" alt="ham" class="empty"></a>
-                                <!-- <a href="#"><img src="icon/icon_ham.png" alt="ham" class="full"></a> -->
-                            </div>
-                            <p><a href="#">하몽 / 살라미</a></p>
+                        <li class="items back-pos" id="5">
+                            <iframe width="720" height="405" src="https://www.youtube.com/embed/pe1yuQteO1g"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <h3>SHINee 샤이니 'Atlantis' @Beyond LIVE – SHINee : SHINee WORLD </h3>
                         </li>
+                        <li class="items back-pos" id="6">
 
-                        <li>
-                            <div>
-                                <a href="#" class="wine"><img src="icon/no-wine.png" alt="wine" class="empty"></a>
-                                <!-- <a href="#"><img src="icon/wine.png" alt="wine" class="full"></a> -->
+                            <iframe width="720" height="405" src="https://www.youtube.com/embed/MvEGfKB6vAA"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <h3>[사이드캠4K] 샤이니 'Atlantis' (SHINee Side FanCam) | @SBS Inkigayo_2021.04.18.
 
-                            </div>
-                            <p><a href="#">와인 안주</a></p>
+                            </h3>
+                        </li>
+                        <li class="items left-pos" id="7">
+                            <iframe width="720" height="405" src="https://www.youtube.com/embed/c2HrAldd44k"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                            <h3>[안방1열 직캠4K] 샤이니 태민 'Atlantis' (SHINee TAEMIN FanCam)</h3>
                         </li>
                     </ul>
+                    <span>
+                        <input type="button" id="prev">
+                        <input type="button" id="next">
+                    </span>
+                </div>
 
+            </section>
+
+            <section class="sec4">
+
+                <div class="photoframe">
+                    <div class="photo_top">
+                        <div class="top1">
+                            <img src="images/original_key.jpg" alt="key">
+                        </div>
+                        <div class="top2"><img src="images/original_onew (2).jpg" alt="onew">
+                        </div>
+                        <div class="top3 last toplast"><img src="images/original_minho.jpg" alt="minho">
+                        </div>
+
+                    </div>
+                    <div class="photo_bottom">
+                        <div class="bottom1"><img src="images/original_taemin.jpg" alt="taemin">
+                        </div>
+                        <div class="bottom2 last bottomlast"><img src="images/original_full.jpg" alt="all">
+                        </div>
+                    </div>
 
                 </div>
-                <hr>
-            </article>
-
-            <!-----------------article 4 ------------------ -->
-
-            <article class="art4 inner">
-                <div class="title">
-                    <h1>NEW</h1>
+                <div class="images">
+                    <img src="images/original_key.jpg" alt="key" class="key">
+                    <img src="images/original_onew.jpg" alt="onew" class="onew">
+                    <img src="images/original_minho.jpg" alt="minho" class="minho">
+                    <img src="images/original_taemin.jpg" alt="taemin" class="taemin">
+                    <img src="images/original_full.jpg" alt="all" class="all">
                 </div>
-                <div class="cont_box">
-                    <div class="cont">
-                        <div class="img_frame">
-                            <a href="#"><img src="images/5.jpg" alt="cheese" class="images"></a>
-                        </div>
-                        <div class="text">
-                            <p class="cont_brand">가로팔로</p>
-                            <h3 class="cont_title"><a href="#">버팔로 모짜렐라 125g</a></h3>
-                            <p class="cont_former_price"></p>
-                            <h2 class="cont_current_price">7,800원</h2>
-                            <hr>
-                            <p class="star">★★★★☆(3)</p>
-                        </div>
-                    </div>
-                    <div class="cont">
-                        <div class="img_frame">
-                            <a href="#"><img src="images/6.jpg" alt="cheese" class="images"></a>
-                        </div>
-                        <div class="text">
-                            <p class="cont_brand">아우리치오</p>
-                            <h3 class="cont_title"><a href="#">프로볼로네 돌체 슬라이스 100g</a></h3>
-                            <p class="cont_former_price"></p>
-                            <h2 class="cont_current_price">6,400원</h2>
+                <div class="black"></div>
 
-                            <p class="star">★★★★★(2)</p>
-                        </div>
-                    </div>
-                    <div class="cont">
-                        <div class="recommend img_frame">
-                            <a href="#"><img src="images/7.jpg" alt="cheese" class="images"></a>
-                            <img src="icon/recommend.png" alt="맛" class="tasty">
-                        </div>
-                        <div class="text">
-                            <p class="cont_brand">퀘스크렘</p>
-                            <h3 class="cont_title"><a href="#">마스카포네 42% 250g</a></h3>
-                            <p class="cont_former_price"></p>
-                            <h2 class="cont_current_price">7,800원</h2>
-                        </div>
-                    </div>
-                    <div class="cont last">
-                        <div class="img_frame">
-                            <a href="#"><img src="images/8.jpg" alt="cheese" class="images"></a>
-                        </div>
-                        <div class="text">
-                            <p class="cont_brand">브리미</p>
-                            <h3 class="cont_title"><a href="#">락토스 프리 모짜렐라 125g</a></h3>
-                            <p class="cont_former_price"></p>
-                            <h2 class="cont_current_price">6,300원</h2>
-                        </div>
-                    </div>
-                </div>
-                <hr>
-            </article>
+            </section>
 
-            <!-----------------article 5 ------------------ -->
-
-            <article class="art5 inner">
-                <div>
-                    <a href="#"><img src="images/slide_02.jpg" alt="knife"></a>
-                </div>
-            </article>
-
-            <!-----------------article 6 ------------------ -->
-
-            <article class="art6 inner">
-                <div class="title">
-                    <h1>더블세일</h1>
-                </div>
-                <div class="cont_box">
-                    <div class="cont">
-                        <div class="img_frame">
-                            <a href="#"><img src="images/9.jpg" alt="cheese" class="images"></a>
-                        </div>
-                        <div class="text">
-                            <p class="cont_brand">안젤로</p>
-                            <h3 class="cont_title">
-                                <a href="#">고르곤졸라 피칸테 150g * 2개</a>
-                            </h3>
-                            <p class="cont_former_price">11,400원</p>
-                            <div class="disc_price">
-                                <h2 class="cont_current_price">10,830원</h2>
-                                <p class="discount">5%</p>
-                            </div>
-                            <hr>
-                            <p class="star">★★★☆☆ (150)</p>
-                        </div>
-                    </div>
-                    <div class="cont">
-                        <div class="img_frame">
-                            <a href="#"><img src="images/10.jpg" alt="cheese" class="images"></a>
-                        </div>
-                        <div class="text">
-                            <p class="cont_brand">이즈니</p>
-                            <h3 class="cont_title"><a href="#">
-                                    AOP 가염버터 블록 250g *2개</a>
-                            </h3>
-                            <p class="cont_former_price">17,600원</p>
-                            <div class="disc_price">
-                                <h2 class="cont_current_price">16,720원</h2>
-                                <p class="discount">5%</p>
-                            </div>
-                            <hr>
-                            <p class="star">★★★★★ (483)</p>
-                        </div>
-                    </div>
-                    <div class="cont">
-                        <div class="img_frame">
-                            <a href="#"><img src="images/11.jpg" alt="cheese" class="images"></a>
-                        </div>
-                        <div class="text">
-                            <p class="cont_brand">엠보그</p>
-                            <h3 class="cont_title">
-                                <a href="#">치즈 바이트 140g(8포션) * 2개</a>
-                            </h3>
-                            <p class="cont_former_price">7,760원</p>
-                            <div class="disc_price">
-                                <h2 class="cont_current_price">7,380원</h2>
-                                <p class="discount">5%</p>
-                            </div>
-                            <hr>
-                            <p class="star">★★★★☆ (80)</p>
-                        </div>
-                    </div>
-                    <div class="cont last">
-                        <div class="img_frame">
-                            <a href="#"><img src="images/12.jpg" alt="cheese" class="images"></a>
-                        </div>
-                        <div class="text">
-                            <p class="cont_brand">프리코</p>
-                            <h3 class="cont_title">
-                                <a href="#">미니에담 스틱 마일드 20g * 12개</a>
-                            </h3>
-                            <p class="cont_former_price">8,800원</p>
-                            <div class="disc_price">
-                                <h2 class="cont_current_price">6,300원</h2>
-                                <p class="discount">10%</p>
-                            </div>
-                            <hr>
-                            <p class="star">★★★★★ (155)</p>
-                        </div>
-                    </div>
-                    <hr>
-                </div>
-            </article>
-
-        </section>
-    </main>
-    <!-----------------footer------------------ -->
-    <footer>
-
-        <div class="inner">
-            <div class="footer_1">
-                <div class="footer_logos">
-                    <div>
-                        <img src="logo/sub_logo.png" alt="side_logo">
-                    </div>
-                    <div class="twitter">
-                        <a href="#"><img src="icon/twitter.png" alt="twiter_logo"></a>
-                    </div>
-                </div>
-                <hr>
-                <h3>고객센터</h3>
-                <h2>02-245-6117</h2>
-                <p>상담시간 : 14:00 - 18:00<br>
-                    휴무 : 공휴인 전날, 공휴일&주말</p>
-            </div>
-            <div class="footer_2">
-                <p>
-                    사업자 등록번호 : 403-15-87592<br>
-                    대표자 : 유민, 김민수<br>
-                    통신판매업신고번호 : 제 2015-서울송파-0977호<br>
-                    주소 : 경기도 하남시 광암로 176번길 72 / TEL : 02-425-6117<br>
-                    개인정보관리책임자 : 유민<br>
-                    CONTACT : 2cheesequeen@gmail.com<br>
-                    COPYRIGHT 2015. CHEESEQUEEN CO.KR. ALL RIGHTS RESERVED
-                </p>
-            </div>
-            <div class="footer_3">
-                <div>
-                    <div><img src="icon/inipay2.png" alt="inipay"></div>
-                    <p>이니페이 전자결제</p>
-                </div>
-                <div>
-                    <div><img src="icon/inipay2.png" alt="inipay"></div>
-                    <p>이니페이 에스크로</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    </div>
-
-    <div class="fixed_banner">
-        <div class="free">
-            <a href="#"><img src="banner/free_delivery.jpg" alt="무료배송"></a>
-        </div>
-        <div class="review">
-            <a href="#"><img src="banner/best_review.jpg" alt="베스트후기"></a>
+            <section class="sec5">
+                <img src="images/final_logo.png" alt="logo">
+            </section>
         </div>
     </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+
+    <script>
+        // 사진
+
+        $('.top1 img').click(function () {
+            $('.key').fadeIn()
+        })
+        $('.top2 img').click(function () {
+            $('.onew').fadeIn()
+        })
+
+        $('.top3 img').click(function () {
+            $('.minho').fadeIn()
+        })
+
+        $('.bottom1 img').click(function () {
+            $('.taemin').fadeIn()
+        })
+
+        $('.bottom2 img').click(function () {
+            $('.all').fadeIn()
+        })
+
+        $('.photoframe img').click(function () {
+            $('.black').fadeIn()
+        })
+        $('.images img').click(function () {
+            $(this).fadeOut()
+            $('.black').fadeOut()
+        })
+        $('.black').click(function () {
+            $(this).fadeOut()
+            $('.images img').fadeOut()
+        })
+
+        var menu = $('header ul li')
+        var cont = $('#wrap section')
+
+        // 메뉴
+        menu.click(function () {
+            var target = $(this)
+            var index = target.index()
+
+            var page = cont.eq(index)
+            var pageTop = page.offset().top
+
+            $('html, body').animate({
+                scrollTop: pageTop
+            }, 100)
+
+        })
+
+        // 언어
+        $('.buttons .korean').click(function () {
+            $(this).hide()
+            $(this).siblings('.english').show()
+
+            $('.listframe .p_eng').show()
+            $('.listframe .p_kor').hide()
+
+        })
+
+        $('.buttons .english').click(function () {
+            $(this).hide()
+            $(this).siblings('.korean').show()
+
+            $('.listframe .p_kor').show()
+            $('.listframe .p_eng').hide()
+        })
+
+
+        // 가사
+        var listleft = $('.list_1 li')
+        var lyricleft = $('.lyric_left .lyric')
+
+        listleft.click(function () {
+            var num = $(this).index()
+            lyricleft.eq(num).show()
+            lyricleft.eq(num).siblings('.lyric').hide()
+        })
+
+        var listright = $('.list_2 li')
+        var lyricright = $('.lyric_right .lyric')
+
+        listright.click(function () {
+            var num = $(this).index()
+            lyricright.eq(num).show()
+            lyricright.eq(num).siblings('.lyric').hide()
+        })
 
 
 
-    <div class="final">
-        <input type="checkbox" id="poppop">
-        <p>본 홈페이지는 개인 포트폴리오 용으로 제작되었습니다.</p>
-        <label for="poppop">
-            <img src="icon/close_black.png" alt="x">
-        </label>
+        $('.lyric img').click(function () {
+            lyricleft.hide()
+            lyricright.hide()
 
-    </div>
+        })
+
+
+
+        // 스크롤
+
+        $(window).scroll(function () {
+            var scrollnow = $(this).scrollTop()
+
+            if (scrollnow >= cont.eq(0).offset().top) {
+                menu.removeClass('active')
+                menu.eq(0).addClass('active')
+                $('.scroll').css({
+                    'top': '0%'
+                })
+
+            }
+            if (scrollnow >= cont.eq(1).offset().top) {
+                menu.removeClass('active')
+                menu.eq(1).addClass('active')
+                $('.scroll').css({
+                    'top': '20%'
+                })
+
+            }
+
+            if (scrollnow >= cont.eq(2).offset().top) {
+                menu.removeClass('active')
+                menu.eq(2).addClass('active')
+                $('.scroll').css({
+                    'top': '40%'
+                })
+            }
+
+            if (scrollnow >= cont.eq(3).offset().top) {
+                menu.removeClass('active')
+                menu.eq(3).addClass('active')
+                $('.scroll').css({
+                    'top': '60%'
+                })
+            }
+
+            if (scrollnow >= cont.eq(4).offset().top) {
+                menu.removeClass('active')
+                menu.eq(4).addClass('active')
+                $('header .head, header .buttons').hide()
+                $('.top').hide()
+                $('.scroll').css({
+                    'top': '80.1%'
+                })
+                menu.eq(4).children('a').css({
+                    'color': '#065397'
+                })
+            }
+
+            if (scrollnow < cont.eq(4).offset().top) {
+                $('header .head, header .buttons').show()
+                menu.eq(4).children('a').css({
+                    'color': '#fff'
+                })
+                $('.top').show()
+            }
+
+        })
+
+        //슬라이드
+        // setinterval 정지시킴
+        //slideshow style interval
+        // var autoSwap = setInterval(swap, 3500);
+
+        // //pause slideshow and reinstantiate on mouseout
+        // $('ul, span').hover(
+        //     function () {
+        //         clearInterval(autoSwap);
+        //     },
+        //     function () {
+        //         autoSwap = setInterval(swap, 3500);
+        //     });
+
+        //global variables
+        var items = [];
+        var startItem = 1;
+        var position = 0;
+        var itemCount = $('.carousel li.items').length;
+        var leftpos = itemCount;
+        var resetCount = itemCount;
+
+        //unused: gather text inside items class
+        $('li.items').each(function (index) {
+            items[index] = $(this).text();
+        });
+
+        //swap images function
+        function swap(action) {
+            var direction = action;
+
+            //moving carousel backwards
+            if (direction == 'counter-clockwise') {
+                var leftitem = $('.left-pos').attr('id') - 1;
+                if (leftitem == 0) {
+                    leftitem = itemCount;
+                }
+
+                $('.right-pos').removeClass('right-pos').addClass('back-pos');
+                $('.main-pos').removeClass('main-pos').addClass('right-pos');
+                $('.left-pos').removeClass('left-pos').addClass('main-pos');
+                $('#' + leftitem + '').removeClass('back-pos').addClass('left-pos');
+
+                startItem--;
+                if (startItem < 1) {
+                    startItem = itemCount;
+                }
+            }
+
+            //moving carousel forward
+            if (direction == 'clockwise' || direction == '' || direction == null) {
+                function pos(positionvalue) {
+                    if (positionvalue != 'leftposition') {
+                        //increment image list id
+                        position++;
+
+                        //if final result is greater than image count, reset position.
+                        if ((startItem + position) > resetCount) {
+                            position = 1 - startItem;
+                        }
+                    }
+
+                    //setting the left positioned item
+                    if (positionvalue == 'leftposition') {
+                        //left positioned image should always be one left than main positioned image.
+                        position = startItem - 1;
+
+                        //reset last image in list to left position if first image is in main position
+                        if (position < 1) {
+                            position = itemCount;
+                        }
+                    }
+
+                    return position;
+                }
+
+                $('#' + startItem + '').removeClass('main-pos').addClass('left-pos');
+                $('#' + (startItem + pos()) + '').removeClass('right-pos').addClass('main-pos');
+                $('#' + (startItem + pos()) + '').removeClass('back-pos').addClass('right-pos');
+                $('#' + pos('leftposition') + '').removeClass('left-pos').addClass('back-pos');
+
+                startItem++;
+                position = 0;
+                if (startItem > itemCount) {
+                    startItem = 1;
+                }
+            }
+        }
+
+        //next button click function
+        $('#next').click(function () {
+            swap('clockwise');
+        });
+
+        //prev button click function
+        $('#prev').click(function () {
+            swap('counter-clockwise');
+        });
+
+        //if any visible items are clicked
+        $('.sec3 li').click(function () {
+            if ($(this).attr('class') == 'items left-pos') {
+                swap('counter-clockwise');
+            } else {
+                swap('clockwise');
+            }
+        });
+
+
+        //  페이지 스크롤
+        (function ($) {
+            $.aniPage = function (e, type) {
+                if (e.originalEvent.wheelDelta > 0 || e.originalEvent.detail < 0) {
+                    $("body, html").animate({
+                        scrollTop: $(window).scrollTop() - $(window).height()
+                    }, 100, function () {
+                        $.aniOk = 0;
+                    });
+                } else {
+                    $("body, html").animate({
+                        scrollTop: $(window).scrollTop() + $(window).height()
+                    }, 100, function () {
+                        $.aniOk = 0;
+                    });
+                }
+            };
+        })(jQuery);
+        $(function () {
+            $(window).height();
+            $.aniOk = 0;
+            $(window).scrollTop(0);
+        });
+        $(document).on("mousewheel DOMMouseScroll", function (e) {
+            e.preventDefault();
+            if ($.aniOk == 0) {
+                $.aniPage(e, e.type);
+                $.aniOk = 1;
+            }
+        });
+    </script>
 
 </body>
 
